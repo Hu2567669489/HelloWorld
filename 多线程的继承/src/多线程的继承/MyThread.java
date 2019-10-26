@@ -1,0 +1,9 @@
+package 多线程的继承;
+
+public class MyThread extends Thread{
+       public void run(){
+    	   while (true){
+    		   System.out.println("MyThread类的run()方法在运行");
+    	   }
+       }
+}
